@@ -3,7 +3,7 @@ const md5 = require("js-md5")
 const localTime = require("../utils/reviseTime")
 mongoose.Promise = global.Promise
 //请自行更改用户名和密码
-mongoose.connection.openUri("mongodb://username:password@localhost:27017/blog")
+mongoose.connection.openUri("mongodb://blog:4wItL2P5ERdCTzpu@39.100.114.192:27017/blog")
 const userSchema = new mongoose.Schema({
 	user: "string",
 	password: "string",
