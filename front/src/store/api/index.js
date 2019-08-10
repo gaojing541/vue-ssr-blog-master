@@ -15,7 +15,7 @@ function ajax(type,url,options){
 			method: type,
 			url: url,
 			// baseURL: "https://www.mapblog.cn",
-			baseURL: "http://localhost:6180",
+			//baseURL: "http://localhost:6180",
       params: type === 'get' ? options : null,
       data: type !== 'get' ? qs.stringify(options) : null
 		}).then((res) => {
